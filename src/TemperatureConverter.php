@@ -1,6 +1,6 @@
 <?php
 
-namespace Olivier;
+namespace Olivier\Tempconv;
 
 class TemperatureConverter
 {
@@ -16,7 +16,7 @@ class TemperatureConverter
             return $celsius;
         } else {
             //Throwing error if the unit provided is neither C nor F
-            throw new InvalidArgumentException('Invalid unit, only C (Celsius) or F (Fahrenheit) are allowed');
+            throw new \InvalidArgumentException('Invalid unit, only C (Celsius) or F (Fahrenheit) are allowed');
         }
     }
 }
