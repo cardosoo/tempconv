@@ -1,8 +1,6 @@
 {
     "name": "olivier/tempconv",
-    "description": "tuto création d'un package pour composer depuis https://kinsta.com/fr/blog/creer-un-paquet-composer/",
     "type": "library",
-    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Olivier\\Tempconv\\": "src/"

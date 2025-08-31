@@ -1,6 +1,6 @@
 <?php
 
-namespace RexfordnyrkTempconv;
+namespace Olivier;
 
 class TemperatureConverter
 {
